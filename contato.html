@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coolrsos.com</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        .navbar-toggler {
+            border-color: #f0b90b;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28240,185,11,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    </style>
+</head>
+
+<body style="background-color: #020a13;">
+
+
+    <nav class="navbar navbar-expand-sm" data-bs-theme="dark" style="background-color: #031120;">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand">
+                <img src="./img/title.png" alt="" width="200" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fs-3 w-100 align-items-sm-center">
+                    <li class="nav-item me-md-4 me-lg-5">
+                        <a href="./cursos.html" class="nav-link" style="color:#f0b90b">Cursos</a>
+                    </li>
+                    <li class="nav-item me-md-4 me-lg-5">
+                        <a href="./sobre.html" class="nav-link" style="color:#f0b90b">Sobre</a>
+                    </li>
+                    <li class="nav-item me-md-4 me-lg-5">
+                        <a href="./contato.html" class="nav-link" style="color:#f0b90b">Contato</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center ms-sm-auto mt-2 mt-sm-0">
+                        <a href="./perfil.html">
+                            <img src="./img/icon.png" alt="Perfil" width="50" height="50"
+                                class="rounded-circle border border-2 p-1">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 style="color:white">Contato</h2>
+        <hr style="color:white">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Celular</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Comentários</label>
+                </div>
+                <div></div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+            </div>
+            <div class="col-3"></div>
+
+        </div>
+    </div>
+
+    </div>
+
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
